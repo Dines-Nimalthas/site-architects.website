@@ -120,15 +120,16 @@ const mobile = window.matchMedia('(max-width: 760px)');
 // Bauteile in Pixeln der jeweiligen Aufnahme: [x, y, Breite, Höhe]
 const PARTS = {
   desk: { w: 1440, h: 900, parts: [
-    { key: 'A', name: 'Navigation', box: [0, 0, 1440, 67] },
-    { key: 'B', name: 'Headline',   box: [130, 168, 530, 542] },
-    { key: 'C', name: 'Anfrage',    box: [130, 722, 460, 86] },
-    { key: 'D', name: 'Bild',       box: [735, 246, 570, 654] },
+    { key: 'A', name: 'Navigation', box: [0, 0, 1440, 66] },
+    { key: 'B', name: 'Logo',       box: [220, 160, 992, 378] },
+    { key: 'C', name: 'Headline',   box: [90, 574, 530, 140] },
+    { key: 'D', name: 'Stories',    box: [90, 736, 610, 164] },
   ]},
   mob: { w: 390, h: 624, parts: [
-    { key: 'A', name: 'Navigation', box: [0, 0, 390, 66] },
-    { key: 'B', name: 'Bild',       box: [8, 96, 374, 240] },
-    { key: 'C', name: 'Headline',   box: [8, 345, 374, 270] },
+    { key: 'A', name: 'Navigation', box: [0, 0, 390, 62] },
+    { key: 'B', name: 'Logo',       box: [30, 180, 330, 135] },
+    { key: 'C', name: 'Headline',   box: [8, 318, 374, 124] },
+    { key: 'D', name: 'Stories',    box: [0, 452, 390, 150] },
   ]},
 };
 
